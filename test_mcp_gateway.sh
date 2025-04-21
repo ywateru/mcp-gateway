@@ -9,7 +9,7 @@ unset HTTP_PROXY
 unset HTTPS_PROXY
 
 # 默认参数
-HOST="http://localhost:9090"
+HOST="http://localhost:8088"
 API_PREFIX="/api"
 ACTION=""
 SERVER=""
