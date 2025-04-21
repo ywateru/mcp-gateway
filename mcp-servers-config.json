@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "Fetch": {
+      "description": "Retrieve and convert web content to markdown for analysis.",
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch",
+        "--ignore-robots-txt",
+        "--user-agent=YourUserAgent"
+      ],
+      "env": {}
+    },
+    "Time": {
+      "description": "MCP server providing time and timezone conversion tools for AI assistants to handle localized time data and calculations.",
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-time",
+        "--local-timezone=Asia/Shanghai"
+      ],
+      "env": {}
+    }
+  }
+}
